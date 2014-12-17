@@ -1,0 +1,10 @@
+#stroopw #banner{
+    background: rgb(54, 70, 84);
+    background-image: url('../img/stroopLogo.png');
+    background-size: cover;
+}
+
+.case-container p {
+    min-width: 260px;
+    width:100%;
+}

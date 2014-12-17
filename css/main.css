@@ -1,0 +1,129 @@
+@import url(header.css);
+@import url(loading.css);
+@import url(home.css);
+@import url(work.css);
+@import url(about.css);
+@import url(contact.css);
+@import url(workpreview.css);
+@import url(404.css);
+
+body{
+	font-family: 'Open Sans';
+}
+.body-wrap, .content{
+	height: 100%;
+	position: absolute;
+	top:0;
+	left:0;
+	width:100%;
+}
+
+#body-container {
+    min-height:100%;
+}
+
+.content{
+    opacity:0;
+	transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease-in-out;
+    transform: translate3d(0, 50% 0);
+    -webkit-transform: translate3d(0, 50%, 0);
+    -moz-transform: translate3d(0, 50%, 0);
+}
+.page-active{
+    transform: translate3d(0, 0, 0);
+    opacity:1;
+}
+
+.page-nonactive{
+    transform: translate3d(0, 100%, 0);
+    opacity:0;
+}
+
+
+.overlay {
+	background: #000;
+	opacity: 0.75;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 0;
+    transition: all 0.6s ease;
+    -moz-transition: all 0.6s ease;
+    -webkit-transition: all .6s ease-in-out;
+}
+.content-wrap{
+	margin:auto;
+}
+
+#banner {
+	height:100%;
+	background: rgb(54, 70, 84);
+    background-image: url('http://mariusz.cc/images/background.jpg');
+    background-size: 100%;
+}
+
+#banner .bannertext{
+	display: block;
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    min-width: 280px;
+    width: 50%;
+}
+
+#banner .bannertext h3{
+	color:#fff;
+	margin-bottom: 7%;
+	font-size: 300%
+}
+
+
+#banner .btn{
+	color:#fff;
+	border: 1px solid;
+	padding:2% 7%;
+}
+#banner .btn:hover, #banner .btn:active{
+	background:#fff;
+	border: 1px solid #fff;
+	color:#333;
+}
+
+
+/* FOOTER */
+footer{
+	color:#888;
+	padding: 1.5% 0%;
+    border-top:1px solid #eee;
+}
+footer span{
+	text-align: center;
+	display: block;
+	font-weight: 300;
+	font-size:80%;
+}
+
+.container{
+	display: block;
+	margin:auto;
+	position:relative;
+	margin-top: 0;
+	margin-bottom: 0;
+    width:auto;
+}
+
+.top-bar{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+

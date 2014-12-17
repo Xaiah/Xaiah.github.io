@@ -1,0 +1,42 @@
+{
+    "works": {
+        "work":[
+            {
+                "name": "Stroop!",
+                "id": "stroop",
+                "img": "../assets/img/stroopLogo.png",
+                "thumbnail": "../assets/img/stroopLogo.png",
+                "description": "Testing who has the best brain processing power!",
+                "breif": "I (along with Changbai Li, Michael Nguyen, and John Watson known as Seriously Joking) created a card game to really test your brain's processing ability",
+                "type": "Game Concept/Prototype"
+            },
+            {
+                "name": "Naval Tactics: Optimus",
+                "id": "optimus",
+                "img": "../assets/img/optimusLogo.png",
+                "thumbnail": "../assets/img/optimusLogo.png",
+                "description": "A unorthodox strategic war game and card game mash up.",
+                "breif": "Kristian Abuda and I created a card/board game using an unorthodox way to merge the two genres together into a cohesive and fun game.",
+                "type": "Game Concept/ Prototype"
+            },
+            {
+                "name": "Time Trooper",
+                "id": "time",
+                "img": "../assets/img/timetrooperLogo.png",
+                "thumbnail": "../assets/img/timetrooperLogo.png",
+                "description": "An addictive game that pushes players to aim for the highest survival score.",
+                "breif": "Serious Joking created another game. This time it is a digital game that tips the odds against you so much that it becomes and addiction.",
+                "type": "Game Concept/Prototype"
+            },
+            {
+                "name": "Concept Arts",
+                "id": "concepts",
+                "img": "../assets/img/conceptArts.png",
+                "thumbnail": "../assets/img/conceptArts.png",
+                "description": "Various concepts and illustrations",
+                "breif": "These are concepts and arts that I had come up with during my free time. Since I love to doodle and stuff.",
+                "type": "Concept Art/Illustrations"
+            }
+        ]
+    }
+}

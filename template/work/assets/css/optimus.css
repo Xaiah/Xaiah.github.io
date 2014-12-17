@@ -1,0 +1,10 @@
+#optimusw #banner{
+    background: rgb(54, 70, 84);
+    background: url('../img/optimusLogo.png');
+    background-size: cover;
+}
+
+.case-container p {
+    min-width: 260px;
+    width:100%;
+}
